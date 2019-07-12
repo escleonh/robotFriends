@@ -24,7 +24,7 @@ class  App extends Component {
  //Any time you make your own methods on a component use this '=' '=>' syntax 
  onSearchChange = (event) =>{
      this.setState({searchfield: event.target.value})
- }
+ } 
  render(){
     // use const {robots, searchfield} = this.state; // to prevent writing this.state a lot
     const filteredRobots = this.state.robots.filter(robot =>{
